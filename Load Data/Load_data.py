@@ -17,10 +17,10 @@ async def main():
     print("Starting data loading process...")
     
     try:
-        # # 1. Create data into table users (run only once)
-        # create_account = CreateAccount()
-        # await create_account.create_all_accounts()
-        # print("Creating Account Data")
+        # 1. Create data into table users (run only once)
+        create_account = CreateAccount()
+        await create_account.create_all_accounts()
+        print("Creating Account Data")
 
         # # 2. Load data into table skill
         # skills_data = LoadSkillsData()
